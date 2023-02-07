@@ -1,4 +1,5 @@
 import { Module } from '@nestjs/common';
+import { MiddlewareConsumer, NestModule } from '@nestjs/common/interfaces';
 import { DatabaseModule } from 'src/db/database.module';
 import { TaskController } from './tasks.controller';
 import { TaskProvider } from './tasks.provider';
